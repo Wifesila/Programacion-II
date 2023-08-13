@@ -57,7 +57,7 @@ while True:
         continue
     
     print("Resultado:", resultado)
-    "El perro come coco"
+
 os.system('pause')
 
 
