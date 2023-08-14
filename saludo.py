@@ -49,7 +49,7 @@ while True:
         print("                    ##### Error #####                    ")
         print("Digite solo lo que se pide e intente de nuevo por favor.")
         print()
-"pp"
+
 print()
 os.system('pause')
 os.system('cls')
