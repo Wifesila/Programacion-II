@@ -18,14 +18,14 @@ import os
 os.system("cls")
 print("--------------------------------------")
 
-# print("PRIMER EJERCICIO")
-# sistContraseña = '2023'
-# ingrContraseña2 = input("Escriba la contraseña del sistema: ")
+print("PRIMER EJERCICIO")
+sistContraseña = '2023'
+ingrContraseña2 = input("Escriba la contraseña del sistema: ")
 
-# if ingrContraseña2 == sistContraseña:
-#     print("Acceso concedido. ")
-# else:
-#     print("X acceso denegado X")
+if ingrContraseña2 == sistContraseña:
+    print("Acceso concedido. ")
+else:
+    print("X acceso denegado X")
 
 # print("SEGUNDO EJERCICIO")
 # while True:
@@ -55,14 +55,14 @@ print("--------------------------------------")
 #         print("Error: Ingrese un número entero válido.")
 #         break
 
-print("CUARTO EJERCICIO")
+# print("CUARTO EJERCICIO")
 
-Personas = [18, 20, 30, 15, 12]
-for e in Personas:
-    if e < 19:
-        print("No puede ingresar.")
-    else:
-        print("Bienvenido")
+# Personas = [18, 20, 30, 15, 12]
+# for e in Personas:
+#     if e < 19:
+#         print("No puede ingresar.")
+#     else:
+#         print("Bienvenido")
 
 print("--------------------------------------")
 os.system('pause')
