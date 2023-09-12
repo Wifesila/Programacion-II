@@ -2,7 +2,7 @@ edad = 18
 if(edad >=18):
     print('Es mayor de edad')
 else:
-    print('No eres mayoe de edad')
+    print('No eres mayor de edad')
 
 #---------------------
 
