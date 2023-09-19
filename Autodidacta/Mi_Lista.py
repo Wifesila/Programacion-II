@@ -52,11 +52,26 @@ print(MiLista_2)
 
 ListaNueva = [4, 8, 23, 2]
 
+ListaNueva.sort(reverse=True) # Ordena alfabeticamente de Z a A y/o de > a <
+print(ListaNueva)
+
 ListaNueva.extend(MiLista_2)
 print(ListaNueva) 
 
 ListaNueva.extend("123") # tomar cada elemento de Str como elemento
 print(ListaNueva) 
+
+print(f'De ListaNueva el numero menor es "{ListaNueva[-3]}" y el más grande es el "{ListaNueva[0]}".')
+print(f'Imprimiendo desde ListaNueva la pocición 2, de pera: "{ListaNueva[6][2]}".')
+
+print(f'Uva esta en la posición {ListaNueva.index("Uva")}.') # Indica la posición de lo buscado 
+
+ListaColores = ["rojo", "azul", "verde", "amarillo"]
+print(ListaColores)
+ListaColores.insert(0, "gris")
+ListaColores.insert(3, "naranja")
+ListaColores.append("rosa")
+print(ListaColores)
 
 ########################################################
 print("--------------------------------------------------------------------")
